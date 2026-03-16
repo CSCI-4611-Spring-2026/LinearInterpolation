@@ -13,7 +13,7 @@ export class ExampleApp extends gfx.GfxApp
     private cameraControls: gfx.OrbitControls;
     private character: gfx.Node3;
     public morphAlpha: number;
-    private targetMesh = "2";
+    private targetMesh = "3";
     private startColor = new gfx.Color(0, 0.5, 0.5);
     private targetColor = new gfx.Color(1.0, 0.0, 0);
     private ground : gfx.Mesh3;
